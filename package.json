@@ -1,0 +1,25 @@
+{
+  "name": "typescript-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "compile": "tsc",
+    "start": "node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanHromenko/typescript-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanHromenko/typescript-practice/issues"
+  },
+  "homepage": "https://github.com/IvanHromenko/typescript-practice#readme",
+  "dependencies": {
+    "typescript": "^5.9.3"
+  }
+}
