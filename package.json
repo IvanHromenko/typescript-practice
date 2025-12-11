@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/IvanHromenko/typescript-practice#readme",
   "dependencies": {
+    "express": "^5.2.1",
     "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6"
   }
 }

@@ -1,9 +1,13 @@
-import { createServer } from 'node:http';
+import express from 'express';
 
-const server = createServer((req, res) => {
-  res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end('Hello, TypeScript with Node.js!\n');
-}
-);
+const app = express();
+const PORT = 3000;
 
-server.listen(3000);
+app.get('/', (req, res) => {
+    console.log(req.method, req.url);
+  res.json({message: 'Hello, TypeScript with Express!'});
+});
+
+app.listen(PORT, () => {
+  console.log(`Server is running at http://localhost:${PORT}`);
+});
