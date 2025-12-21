@@ -5,8 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "compile": "tsc",
-    "start": "node dist/app.js"
+    "build": "tsc",
+    "start": "func start",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
